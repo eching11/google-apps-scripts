@@ -7,7 +7,7 @@ function onOpen() {
 }
 
 function showSidebar() {
- var html = HtmlService.createHtmlOutputFromFile('[html file name]')
+ var html = HtmlService.createHtmlOutputFromFile('sidebar.html')
       .setTitle('[Sidebar title]')
       .setWidth(300);
   SpreadsheetApp.getUi()
