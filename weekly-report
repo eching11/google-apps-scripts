@@ -1,4 +1,6 @@
-// emails weekly review (every Sunday via trigger) with report on week's highlights and total hours read.
+// Emails weekly review (every Sunday via trigger) with report on week's highlights and total hours read.
+// Google Apps Script attached to a Spreadsheet
+
 function weekly() {
   var ss = SpreadsheetApp.openById("[GoogleSpreadsheetID]");
   var sheet = ss.getSheets()[0];
